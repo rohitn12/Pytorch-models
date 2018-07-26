@@ -1,5 +1,5 @@
 class RNN(nn.Module):
-    def __init(self , input_size , hidden_layers, num_layers, num_classes  ):
+    def __init__(self , input_size , hidden_layers, num_layers, num_classes ):
         super(RNN , self).__init__()
         self.hidden_layers = hidden_layers
         self.num_layers = num_layers
